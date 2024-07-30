@@ -17,6 +17,6 @@ java -cp "/home/oracle/Oracle/Middleware/Oracle_Home/wlserver/server/lib/weblogi
  -password $password `
  -deploy $appPath `
  -targets $target `
- -name onlinebookshop
+ -name OnlineBookStore
 
 Write-Host "Application Deployed successfully."
