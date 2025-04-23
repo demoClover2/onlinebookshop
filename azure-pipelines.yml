@@ -1,0 +1,11 @@
+trigger:
+- Main
+
+pool:
+  name: default
+  demands:
+  - agent.name -equals MAHTAB_SHAIKH
+
+steps:
+- checkout: self
+  persistCredentials: true
